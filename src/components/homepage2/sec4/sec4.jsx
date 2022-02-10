@@ -10,29 +10,23 @@ import Card2 from "../../blocks/card2/card2";
 import Card3 from "../../blocks/card3/card3";
 import Card4 from "../../blocks/card4/card4";
 
-
-const Sec2 = ({ category }) => {
+const Sec4 = ({ category }) => {
   return (
-    <div className="section-two">
+    <div className="section-four">
       <div className="container is-max-widescreen mt-2">
         <div className="columns is-tablet mr-0 ml-0">
-          {/* <div className="columns is-mobile mt-2"> */}
             <div className="column">
-            <Card6 />
+            <Card5 />
           </div>
             <div className="column">
-              <Card6 />
+              <Card5 />
             </div>
             <div className="column">
-            <Card6 />
-          </div>
-          <div className="column">
-            <Card6 />
-          </div>
-          {/* </div> */}
+              <Card5 />
+            </div>
         </div>
       </div>
     </div>
   );
 };
-export default Sec2;
+export default Sec4;

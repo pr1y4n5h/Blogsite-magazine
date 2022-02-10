@@ -1,10 +1,8 @@
 @import "../../cutils.scss";
 .card9 {
   box-shadow: none;
-  border: 1px solid black;
   .bg-image {
     height: 500px;
-    border: 1px solid black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
@@ -43,7 +41,6 @@
 @media (max-width: 991.98px) {
   .card9 {
     .bg-image {
-      // height: 250px;
       // background-repeat: no-repeat;
       background-size: cover;
       .content {

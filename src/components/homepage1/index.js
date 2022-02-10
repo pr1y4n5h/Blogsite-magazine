@@ -16,23 +16,3 @@ const Homepage1 = () => {
   );
 };
 export default Homepage1;
-
-
-
-
-  
-// .product-details-image {
-//   width: 500px;
-//   display: flex;
-//   justify-content: center;
-//   position: relative;
-// }
-
-// .product-details-image img {
-//   max-width: 100%;
-//   display: block;
-//   margin: 1rem 1rem;
-//   object-fit: cover;
-//   box-shadow: 2px 2px 5px var(--dark-color);
-// }
-
