@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+.card3 {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.card3 .card-content {
+  padding: 5px 0 0;
+}
+
+.card3 .card-image {
+  max-height: 380px;
+  overflow: hidden;
+}
+
+.card3 .card-image img {
+  width: 100%;
+  border-radius: 0;
+}
+
+.card3 .media {
+  margin-bottom: 8px !important;
+}
+
+.card3 .category {
+  color: #55a004;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.card3 .title {
+  color: black;
+  font-size: 17px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.card3 .post-meta {
+  font-size: 12px;
+}
+
+.card3 .post-meta .author {
+  color: black;
+}
+
+.card3 .post-meta .date {
+  color: #767676;
+}
+
+@media (min-width: 576px) {
+  .card3 .title {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card3 .title {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .card3 .title {
+    font-size: 20px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

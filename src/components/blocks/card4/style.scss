@@ -1,0 +1,79 @@
+@import "../../cutils.scss";
+.card4 {
+  box-shadow: none;
+  border: none;
+  .card-image {
+    img {
+      border-radius: 5%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .card-content {
+    padding: 1rem;
+  }
+  .media-content {
+    margin-bottom: 8px !important;
+  }
+
+  .tag {
+    color: $tag-color;
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 100px;
+  }
+
+  .category {
+    color: $accent-color;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .title {
+    color: $post-title-color;
+    font-size: 1.75rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .post-meta {
+    font-size: 12px;
+    .author {
+      color: $post-text-color;
+    }
+    .date {
+      color: #767676;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .card4 {
+    .title {
+      // font-size: 17px;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .card4 {
+    .title {
+      // font-size: 15px;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .card4 {
+    .title {
+      font-size: 20px;
+    }
+  }
+}
+@media (min-width: 1200px) {
+}
+@media (max-width: 575.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 1199.98px) {
+}

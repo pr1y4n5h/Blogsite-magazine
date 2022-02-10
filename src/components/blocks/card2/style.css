@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+.card2 {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 100%;
+  border-radius: 0;
+}
+
+.card2 .card-content {
+  padding: 13px 0 0;
+}
+
+.card2 .media {
+  margin-bottom: 8px !important;
+}
+
+.card2 .category {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.card2 .title {
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: bold;
+}
+
+.card2 .post-meta {
+  padding: 22px 20px;
+  font-size: 12px;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), color-stop(108%, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 108%, rgba(0, 0, 0, 0));
+}
+
+.card2 .post-meta .author {
+  color: #ffffff;
+}
+
+.card2 .post-meta .date {
+  color: #ffffff;
+}
+
+.card2 .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .card2 {
+    padding-bottom: 170%;
+  }
+}
+
+@media (min-width: 992px) {
+  .card2 {
+    padding-bottom: 160%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

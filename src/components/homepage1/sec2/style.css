@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+.section-two hr {
+  background-color: #eae8e8;
+  border: none;
+  display: block;
+  height: 1px;
+  margin: 1rem 0;
+}
+
+.section-two .card3 .card-image {
+  max-height: 180px;
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .section-two .btwo {
+    padding-bottom: 150%;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-two .btwo {
+    padding-bottom: 133%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

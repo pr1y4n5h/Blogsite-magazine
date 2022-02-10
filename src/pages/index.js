@@ -1,18 +1,21 @@
 import React from "react";
 import "./mystyles.scss";
-import Header from "../components/sections/headerone/headerone";
-import Sone from "../components/sections/sone/sone";
-import Stwo from "../components/sections/stwo/stwo";
-import Sthree from "../components/sections/sthree/sthree";
+import Homepage1 from "../components/homepage1";
+import Homepage2 from "../components/homepage2";
+import Homepage3 from "../components/homepage3";
+import Homepage4 from "../components/homepage4";
+import Homepage5 from "../components/homepage5";
 
 const IndexPage = () => {
   return (
-    <div className="layout">
-      <Header />
-      <Sone />
-      <Stwo />
-      <Sthree />
+    <div>
+    {/* <Homepage1 /> */}
+    {/* <Homepage2 /> */}
+    {/* <Homepage3 /> */}
+    {/* <Homepage4 /> */}
+    <Homepage5 />
     </div>
   );
 };
 export default IndexPage;
+

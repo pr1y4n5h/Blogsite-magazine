@@ -1,0 +1,66 @@
+@import "../../cutils.scss";
+.container {
+  width: 100%;
+  max-width: none;
+}
+header {
+  background-color: $header-bg-color;
+  height: 52px;
+}
+.navbar {
+  min-height: 52px;
+  background-color: $header-bg-color;
+}
+.navbar-burger {
+  color: $header-text-color;
+}
+.navbar-item {
+  color: $header-text-color;
+  font-weight: 600;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+a.navbar-item:hover {
+  color: $header-text-hover-color;
+  background-color: $header-text-hover-bg-color;
+}
+.navbar-item img {
+  max-height: 50px;
+  padding-top: 5px;
+}
+.container > .navbar .navbar-brand .navbar-item {
+  padding: 0 10px;
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 60px;
+  }
+  header {
+    height: 60px;
+  }
+  .container > .navbar .navbar-brand {
+    margin-left: 0;
+  }
+  .container > .navbar .navbar-menu {
+    margin-right: 0;
+  }
+  .navbar-item img {
+    max-height: 55px;
+    padding-top: 5px;
+  }
+}
+@media (min-width: 1200px) {
+}
+@media (max-width: 575.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 1199.98px) {
+}
