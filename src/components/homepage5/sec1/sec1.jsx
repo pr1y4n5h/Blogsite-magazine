@@ -17,12 +17,6 @@ const Sec1 = ({ category }) => {
           <div classname="column">
             <Card9 />
           </div>
-          {/* <div classname="column">
-            <Card8 />
-          </div>
-          <div classname="column">
-            <Card8 />
-          </div> */}
         </div>
       </div>
     </div>

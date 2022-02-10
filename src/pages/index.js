@@ -9,11 +9,11 @@ import Homepage5 from "../components/homepage5";
 const IndexPage = () => {
   return (
     <div>
-    {/* <Homepage1 /> */}
+    <Homepage1 />
     {/* <Homepage2 /> */}
     {/* <Homepage3 /> */}
     {/* <Homepage4 /> */}
-    <Homepage5 />
+    {/* <Homepage5 /> */}
     </div>
   );
 };

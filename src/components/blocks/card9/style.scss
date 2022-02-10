@@ -1,13 +1,16 @@
 @import "../../cutils.scss";
 .card9 {
   box-shadow: none;
+  border: 1px solid black;
   .bg-image {
     height: 500px;
+    border: 1px solid black;
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
     .content {
       color: $base-bg-color;
+      padding: 1.5rem;
       .post-meta {
         padding: 1rem 0;
         .title {
@@ -42,7 +45,6 @@
     .bg-image {
       // height: 250px;
       // background-repeat: no-repeat;
-      border: 1px solid black;
       background-size: cover;
       .content {
         color: $base-bg-color;

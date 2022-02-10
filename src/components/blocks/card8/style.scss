@@ -39,22 +39,12 @@
 }
 @media (max-width: 991.98px) {
   .card8 {
-    .bg-image {
-      // height: 250px;
-      // background-repeat: no-repeat;
-      border: 1px solid black;
-      background-size: cover;
-      .content {
-        color: $base-bg-color;
-      }
-    }
-
     .title {
       font-weight: bold;
       font-size: 1.5rem;
     }
     .subtitle {
-      font-size: 1.2rem;
+      font-size: 0.25rem;
     }
     .post-meta {
       .author {
