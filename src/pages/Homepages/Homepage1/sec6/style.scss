@@ -1,0 +1,38 @@
+@import "../../../../components/cutils.scss";
+
+.section-six {
+  hr {
+    background-color: #eae8e8;
+    border: none;
+    display: block;
+    height: 1px;
+    margin: 1rem 0;
+  }
+  .card3 .card-image {
+    max-height: 180px;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+  .section-six .btwo {
+    padding-bottom: 150%;
+  }
+}
+@media (min-width: 992px) {
+  .section-six .btwo {
+    padding-bottom: 133%;
+  }
+}
+@media (min-width: 1200px) {
+}
+@media (max-width: 575.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 1199.98px) {
+}

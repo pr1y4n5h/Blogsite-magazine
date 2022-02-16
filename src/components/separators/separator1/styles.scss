@@ -1,0 +1,25 @@
+@import "../../cutils.scss";
+
+.separator1 {
+    margin: 0.25rem 0.75rem;
+    height: 5vh;  
+    .child {
+        position: relative;
+        span {
+            background-color: #DC1A0B;
+            color: $base-bg-color;
+            transform: matrix(1, 0, -0.267949, 1, 0, 0);
+            box-sizing: border-box;
+            padding: 4px 12px;
+            font-weight: 700;
+            z-index: 1000;
+        }
+        hr {
+           background-color: #000;
+           height:1px;
+           position: absolute;
+           width: 100%;
+        }
+    }
+
+}
