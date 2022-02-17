@@ -1,28 +1,23 @@
 @import "../../cutils.scss";
 .card10 {
   box-shadow: none;
-  .bg-image {
-    height: 500px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
     .content {
-      color: $base-bg-color;
       .post-meta {
         padding: 1rem 0;
-        .title {
-          color: $base-bg-color;
+        .subtitle {
+          font-size: 0.8rem;
           font-weight: bold;
         }
-        .subtitle {
-          color: $base-bg-color;
+        .title {
+          font-weight: bold;
+          margin: 0.5rem 0;
+          font-size: 1.5rem;
         }
-        .author {
+        .desc {
           font-size: 1rem;
         }
       }
     }
-  }
 }
 
 
@@ -40,28 +35,24 @@
 }
 @media (max-width: 991.98px) {
   .card10 {
-    .bg-image {
-      // height: 250px;
-      // background-repeat: no-repeat;
-      border: 1px solid black;
-      background-size: cover;
+    box-shadow: none;
       .content {
-        color: $base-bg-color;
+        .post-meta {
+          padding: 1rem 0;
+          .subtitle {
+            font-size: 0.8rem;
+            font-weight: bold;
+          }
+          .title {
+            font-weight: bold;
+            margin: 0.5rem 0;
+            font-size: 1.4rem;
+          }
+          .desc {
+            font-size: 1rem;
+          }
+        }
       }
-    }
-
-    .title {
-      font-weight: bold;
-      font-size: 1.5rem;
-    }
-    .subtitle {
-      font-size: 1.2rem;
-    }
-    .post-meta {
-      .author {
-        font-size: 0.85rem;
-      }
-    }
   }
 }
 @media (max-width: 1199.98px) {

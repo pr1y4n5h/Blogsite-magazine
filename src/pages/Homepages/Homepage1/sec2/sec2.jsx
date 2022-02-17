@@ -32,4 +32,5 @@ const Sec2 = ({ category }) => {
     </div>
   );
 };
+
 export default Sec2;
