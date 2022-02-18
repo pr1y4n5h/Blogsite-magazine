@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 import { Link } from "gatsby";
-import logo from "../../../images/thenerdseries.png";
+import logo from "../../../../images/thenerdseries.png";
 
 const Header = ({ category }) => {
   return (

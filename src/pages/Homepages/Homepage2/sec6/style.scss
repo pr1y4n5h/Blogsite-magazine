@@ -1,5 +1,6 @@
-@import "../../cutils.scss";
-.section-three {
+@import "../../../../components/cutils.scss";
+
+.section-six {
   hr {
     background-color: #eae8e8;
     border: none;
@@ -16,12 +17,12 @@
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
-  .section-three .btwo {
+  .section-six .btwo {
     padding-bottom: 150%;
   }
 }
 @media (min-width: 992px) {
-  .section-three .btwo {
+  .section-six .btwo {
     padding-bottom: 133%;
   }
 }

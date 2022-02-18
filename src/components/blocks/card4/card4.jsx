@@ -11,13 +11,13 @@ const Card4 = ({ category }) => {
           alt="Placeholder image"
         />
       </div>
-      <div className="card-content is-flex is-align-items-center">
+      <div className="card-content">
         <div className="media-content">
           <span className="tag">Technology</span>
-          <p className="title is-3 mt-2">
+          <p className="title is-3">
             New Technology Will Help Keep Your Smart Home from Becoming Obsolete
           </p>
-          <p className="subtitle is-5 my-4">
+          <p className="subtitle is-5">
             I actually first read this as alkalizing meaning effecting pH level, and I was like, OK
             I guess I understand how...
           </p>

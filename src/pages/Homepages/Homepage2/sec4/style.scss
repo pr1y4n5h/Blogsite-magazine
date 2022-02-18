@@ -1,6 +1,6 @@
-@import "../../cutils.scss";
+@import "../../../../components/cutils.scss";
 
-.section-one .is-mobile {
+.section-four .is-mobile {
   .card1 {
     .title {
       font-size: 17px;
@@ -14,7 +14,7 @@
 @media (min-width: 576px) {
 }
 @media (min-width: 768px) {
-  .section-one .is-mobile {
+  .section-four .is-mobile {
     .card1 {
       .title {
         font-size: 11px;
@@ -23,7 +23,7 @@
   }
 }
 @media (min-width: 992px) {
-  .section-one .is-mobile {
+  .section-four .is-mobile {
     .card1 {
       .title {
         font-size: 14px;

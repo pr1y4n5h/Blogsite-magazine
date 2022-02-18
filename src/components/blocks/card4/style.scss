@@ -7,63 +7,59 @@
       border-radius: 5%;
       width: 100%;
       object-fit: cover;
+      max-height: 325px;
     }
   }
   .card-content {
     padding: 1rem;
-  }
-  .media-content {
-    margin-bottom: 8px !important;
-  }
-
-  .tag {
-    color: $tag-color;
-    font-size: 0.8rem;
-    font-weight: 600;
-    border-radius: 100px;
-  }
-
-  .category {
-    color: $accent-color;
-    font-size: 12px;
-    font-weight: bold;
-  }
-  .title {
-    color: $post-title-color;
-    font-size: 1.75rem;
-  }
-  .subtitle {
-    font-size: 1rem;
-  }
-  .post-meta {
-    font-size: 12px;
-    .author {
-      color: $post-text-color;
+    .media-content {
+      
     }
-    .date {
-      color: #767676;
+    .tag {
+      color: $tag-color;
+      font-size: 0.8rem;
+      font-weight: 600;
+      border-radius: 100px;
+    }
+    .title {
+      color: $post-title-color;
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .subtitle {
+      font-size: 1rem;
+      margin-top: 0;
     }
   }
 }
 
 @media (min-width: 576px) {
-  .card4 {
-    .title {
-      // font-size: 17px;
-    }
-  }
+  
 }
-@media (min-width: 768px) {
-  .card4 {
-    .title {
-      // font-size: 15px;
-    }
-  }
+
+@media (max-width: 768px) {
 }
+
 @media (max-width: 992px) {
   .card4 {
-    .title {
-      font-size: 20px;
+    .card-image {
+      img {
+        height: 100%;
+      }
+    }
+    .card-content {
+    padding: 0.5rem;
+      .tag {
+        font-size: 0.70rem;
+      }
+      .title {
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+      }
+      .subtitle {
+        font-size: 0.9rem;
+        margin-top: 0;
+      }
     }
   }
 }

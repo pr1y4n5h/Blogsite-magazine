@@ -13,8 +13,14 @@ const Sec6 = ({ category }) => {
             <hr />
             <Card10 />
             <hr />
+            <Card10 />
+            <hr />
+            <Card10 />
+            <hr />
           </div>
           <div className="column is-4">
+            <Card10 />
+            <hr />
             <Card10 />
             <hr />
             <Card10 />
