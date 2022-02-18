@@ -3,9 +3,9 @@ import "./style.scss";
 import { Link } from "gatsby";
 import Card10 from "../../../../components/blocks/card10/card10";
 
-const Sec6 = ({ category }) => {
+const Sec5 = ({ category }) => {
   return (
-    <div className="section-six">
+    <div className="section-five">
       <div className="container is-max-widescreen mt-2">
         <div className="columns is-tablet mr-0 ml-0">
             <div className="column is-8">
@@ -31,4 +31,4 @@ const Sec6 = ({ category }) => {
     </div>
   );
 };
-export default Sec6;
+export default Sec5;
