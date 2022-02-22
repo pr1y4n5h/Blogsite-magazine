@@ -1,0 +1,47 @@
+@import "../../cutils.scss";
+.social-box {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  min-height: 15vh;
+  div {
+    .social-icons {
+      display: flex;
+      justify-content: space-between;
+      span {
+        background-color: $page-heading-1;
+        height: 40px;
+        width: 40px;
+        margin: 0.5rem 0.5rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: transform .2s;
+        svg {
+          height: 16px;
+          width: 100%;
+          fill: $base-bg-color !important;;
+        }
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 992px) {
+}
+@media (min-width: 1200px) {
+}
+@media (max-width: 575.98px) {
+}
+@media (max-width: 767.98px) {
+}
+@media (max-width: 991.98px) {
+}
+@media (max-width: 1199.98px) {
+}

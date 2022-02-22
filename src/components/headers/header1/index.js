@@ -1,12 +1,12 @@
 import React from "react";
 import "./style.scss";
 import { Link } from "gatsby";
-import logo from "../../../../images/thenerdseries.png";
-import WeatherIcon from "../../../../images/icons/weather";
-import FacebookIcon from "../../../../images/icons/facebook";
-import TwitterIcon from "../../../../images/icons/twitter";
-import YoutubeIcon from "../../../../images/icons/youtube";
-import SearchIcon from "../../../../images/icons/search";
+// import logo from "../../../../images/thenerdseries.png";
+import WeatherIcon from "../../../images/icons/weather";
+import FacebookIcon from "../../../images/icons/facebook";
+import TwitterIcon from "../../../images/icons/twitter";
+import YoutubeIcon from "../../../images/icons/youtube";
+import SearchIcon from "../../../images/icons/search";
 
 const Header1 = ({ category }) => {
   return (
@@ -35,7 +35,7 @@ const Header1 = ({ category }) => {
             <WeatherIcon />
             <b>3.8 </b>
             <sup>C</sup>
-            <span> Munich </span>
+            <span className="ml-1"> Munich </span>
           </div>
 
           <div className="mid-mid-nav has-text-centered">

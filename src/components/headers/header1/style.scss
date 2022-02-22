@@ -1,4 +1,4 @@
-@import "../../../../components/cutils.scss";
+@import "../../../components/cutils.scss";
 header {
   background-color: $base-bg-color;
   height: auto;
@@ -62,28 +62,6 @@ header {
     }
 
   }
-
-
-// .navbar-burger {
-//   color: $header-text-color;
-// }
-// .navbar-item {
-//   color: $header-text-color;
-//   font-weight: 600;
-//   font-size: 14px;
-//   text-transform: uppercase;
-// }
-// a.navbar-item:hover {
-//   color: $header-text-hover-color;
-//   background-color: $header-text-hover-bg-color;
-// }
-// .navbar-item img {
-//   max-height: 50px;
-//   padding-top: 5px;
-// }
-// .container > .navbar .navbar-brand .navbar-item {
-//   padding: 0 10px;
-// }
 
 @media (min-width: 576px) {
 }
