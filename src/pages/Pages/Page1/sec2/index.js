@@ -6,6 +6,8 @@ import Social1 from "../../../../components/socials/social1";
 import Card10 from "../../../../components/blocks/card10/card10";
 import Card5 from "../../../../components/blocks/card5/card5";
 import Card9 from "../../../../components/blocks/card9/card9";
+import Card11 from "../../../../components/blocks/card11";
+import Separator1 from "../../../../components/separators/separator1";
 
 const Sec2 = ({ category }) => {
   return (
@@ -101,6 +103,15 @@ const Sec2 = ({ category }) => {
           <Social1 />
           <div className="my-4">
           <Card9 />
+          </div>
+          <Separator1 text="More News" />
+          <div className="my-4">
+          <Card11 />
+          <Card11 />
+          <Card11 />
+          <Card11 />
+          <Card11 />
+
           </div>
           </div>
         </div>
