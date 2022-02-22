@@ -11,8 +11,8 @@ const IndexPage = () => {
     <div>
     {/* <Homepage1 /> */}
     {/* <Dump /> */}
-    {/* <Homepage2 /> */}
-    <Page1 />
+    <Homepage2 />
+    {/* <Page1 /> */}
     </div>
   );
 };

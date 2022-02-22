@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import { Link } from "gatsby";
 import Card10 from "../../../../components/blocks/card10/card10";
+import Card11 from "../../../../components/blocks/card11";
 
 const Sec5 = ({ category }) => {
   return (
@@ -19,11 +20,17 @@ const Sec5 = ({ category }) => {
             <hr />
           </div>
           <div className="column is-4">
-            <Card10 />
+            <Card11 />
             <hr />
-            <Card10 />
+            <Card11 />
             <hr />
-            <Card10 />
+            <Card11 />
+            <hr />
+            <Card11 />
+            <hr />
+            <Card11 />
+            <hr />
+            <Card11 />
             <hr />
           </div>
         </div>

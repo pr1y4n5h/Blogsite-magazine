@@ -12,8 +12,6 @@ const Card11 = ({ category }) => {
           <div className="post-right ml-2">
           <p className="title">
             Here’s What Actually Happens When You Substitute Engine Oil With WD-40
-            Here’s What Actually Happens When You Substitute Engine Oil With WD-40
-
             </p>
           </div>
         </div>
