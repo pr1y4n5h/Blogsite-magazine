@@ -12,23 +12,21 @@ const Header2 = ({ category }) => {
   return (
     <header>
       <div className="container is-max-widescreen">
-        <nav className="is-flex is-justify-content-space-between">
-          <div className="nav-left is-flex is-align-items-center">
-          <a className="navbar-logo" href="https://bulma.io">
-              <img src={icon2} alt="logo" className="nav-logo" />
-            </a>
+        <nav>
+          <div className="nav-left">
+          <div className="navbar-logo" href="https://bulma.io">
+              <img src={icon2} alt="logo" />
+            </div>
           </div>
-          <ul className={isResponsive ? "nav-links-mobile" : "nav-menu is-flex is-align-items-center has-text-weight-bold"}
+          <ul className={isResponsive ? "nav-links-mobile" : "nav-menu has-text-weight-bold"}
           onClick={() => setResponsive(false)} >
             <li>Home</li>
             <li>Coronavirus</li>
             <li>Vaccine</li>
             <li>Treatment</li>
-            <li>Research</li>         
+            <li>Research</li>
+            <span className="mx-2 has-text-weight-bold is-flex is-align-items-center"> Search <SearchIcon /> </span>
           </ul>
-          <div className="nav-right is-flex is-align-items-center">
-            <span className="mx-2 has-text-weight-bold"> Search </span>
-            <SearchIcon />
           <button
           onClick={() => setResponsive((responsive) => !responsive)}
           className="mobile-menu-icon"
@@ -39,7 +37,6 @@ const Header2 = ({ category }) => {
             <BarsIcon />
           )}
         </button>
-          </div>
         </nav>
       </div>
     </header>

@@ -2,24 +2,24 @@
 header {
   background-color: $base-bg-color;
   height: auto;
+  .top-nav {
+    min-height: 32px;
+    background-color: $header-bg-color;
+    color: #fff;
+    font-size: 0.8rem;
+    .top-nav-ul {
+       display: flex;
+       li {
+         margin: 0.25rem 0.75rem;
+         cursor: pointer;
+       }
+      }
+      span {
+       margin: 0.25rem 0.75rem;
+      }
+  }
   .container {
     width: 100%;
-    .top-nav {
-      min-height: 32px;
-      background-color: $header-bg-color;
-      color: #fff;
-      font-size: 0.8rem;
-      .top-nav-ul {
-         display: flex;
-         li {
-           margin: 0.25rem 0.75rem;
-           cursor: pointer;
-         }
-        }
-        span {
-         margin: 0.25rem 0.75rem;
-        }
-    }
 
     .mid-nav {
       margin: 1.25rem 0;

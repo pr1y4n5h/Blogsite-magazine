@@ -6,27 +6,35 @@ header {
     width: 100%;
     nav {
       min-height: 8vh;
+      display: flex;
+      justify-content: space-between;
       .nav-left {
+        display: flex;
+        align-items: center;
         .navbar-logo {
           img {
             width: 100%;
-            height: 60px;
+            height: 9vmin;
           }
         }
       }
       .nav-menu {
         list-style: none;
+        display: flex;
+        align-items: center;
+        svg {
+          height: 14px;
+          margin-left: 0.25rem;
+        }
         li {
           margin: 0.25rem 0.75rem;
         }
       }
-      .nav-right {
-        svg {
-          height: 14px;
-        }
-      }
       .mobile-menu-icon {
         display: none;
+       svg {
+         height: 14px;
+        }
       }
     }
   }
@@ -43,12 +51,12 @@ header {
 }
 @media (max-width: 575.98px) {
 }
-@media (max-width: 1199.98px) {
+@media (max-width: 992px) {
   header {
     .container {
       nav {
         .nav-menu {
-          width: 100%;
+          display: none;
           position: relative;
         }
         .nav-links-mobile {
@@ -67,8 +75,8 @@ header {
             margin: 0.25rem 0.25rem;
           }
         }
-        .nav-right {
-          .mobile-menu-icon {
+
+        .mobile-menu-icon {
             position: absolute;
             display: block;
             font-size: 1.5rem;
@@ -76,11 +84,10 @@ header {
             background-color: $base-bg-color;
             border: none;
             outline: none;
-            top: 0px;
+            top: 0;
             right: 0;
             transform: translate(-100%, 70%);
           }
-        }
       }
   }
 }

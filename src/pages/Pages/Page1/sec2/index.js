@@ -111,7 +111,6 @@ const Sec2 = ({ category }) => {
           <Card11 />
           <Card11 />
           <Card11 />
-
           </div>
           </div>
         </div>

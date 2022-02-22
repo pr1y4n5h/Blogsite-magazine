@@ -1,7 +1,6 @@
 import React from "react";
 import "./style.scss";
 import { Link } from "gatsby";
-// import logo from "../../../../images/thenerdseries.png";
 import WeatherIcon from "../../../images/icons/weather";
 import FacebookIcon from "../../../images/icons/facebook";
 import TwitterIcon from "../../../images/icons/twitter";
@@ -11,16 +10,7 @@ import SearchIcon from "../../../images/icons/search";
 const Header1 = ({ category }) => {
   return (
     <header>
-      <div className="container is-max-widescreen">
-        {/* <nav className="navbar" role="navigation" aria-label="main navigation">
-          <div className="navbar-brand">
-            <a className="navbar-item" href="https://bulma.io">
-              <img src={logo} alt="logo" className="nav-logo" />
-            </a>
-          </div>
-        </nav> */}
-
-        <nav className="top-nav is-flex is-justify-content-space-between">
+        <nav className="top-nav is-flex is-justify-content-space-around">
           <ul className="top-nav-ul">
             <li>Advertise</li>
             <li>About</li>
@@ -29,7 +19,7 @@ const Header1 = ({ category }) => {
           </ul>
           <span> Sign in/Join </span>
         </nav>
-
+      <div className="container is-max-widescreen">
         <div className="mid-nav is-flex">
           <div className="mid-left-nav">
             <WeatherIcon />
