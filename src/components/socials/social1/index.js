@@ -7,11 +7,11 @@ import "./style.scss";
 
 const Social1 = () => {
   return (
-    <div className="social-box is-flex is-justify-content-center is-align-items-center">
+    <div className="social-box1 is-flex is-justify-content-center is-align-items-center">
       <div>
         <h4 className="is-uppercase has-text-weight-semibold has-text-centered"> Share Post</h4>
         <div className="social-icons">
-          <span><FacebookIcon fill="currentColor" /></span>
+          <span><FacebookIcon /></span>
           <span><TwitterIcon /></span>
           <span><WhatsappIcon /></span>
           <span><PinterestIcon /></span>
