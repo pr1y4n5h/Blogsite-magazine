@@ -13,8 +13,8 @@ const IndexPage = () => {
     {/* <Homepage1 /> */}
     {/* <Dump /> */}
     {/* <Homepage2 /> */}
-    {/* <Page1 /> */}
-    <Page2 />
+    <Page1 />
+    {/* <Page2 /> */}
     </div>
   );
 };
